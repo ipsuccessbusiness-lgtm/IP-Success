@@ -77,7 +77,7 @@ export default function HeroSection({ heroUrl }: { heroUrl?: string }) {
                 </svg>
               ))}
             </div>
-            <span className="text-sm font-semibold text-on-surface-variant">4.9/5 · 10,000+ Reviews</span>
+            <span className="text-sm font-semibold text-on-surface-variant">4.9/5 · Trusted by Thousands Across India</span>
           </div>
         </motion.div>
 
@@ -115,17 +115,6 @@ export default function HeroSection({ heroUrl }: { heroUrl?: string }) {
           </motion.div>
 
           {/* Floating badges */}
-          <motion.div
-            animate={{ y: [0, -6, 0] }}
-            transition={{ duration: 3, repeat: Infinity, ease: 'easeInOut', delay: 0.5 }}
-            className="absolute top-8 -left-4 md:left-0 bg-white rounded-2xl p-3 shadow-card border border-outline-variant/30 flex items-center gap-2"
-          >
-            <div className="w-8 h-8 bg-primary-100 rounded-full flex items-center justify-center text-lg">🌿</div>
-            <div>
-              <div className="text-xs font-bold text-primary-700">AYUSH Approved</div>
-              <div className="text-[10px] text-on-surface-variant">Certified</div>
-            </div>
-          </motion.div>
 
           <motion.div
             animate={{ y: [0, 6, 0] }}

@@ -4,13 +4,11 @@ import { motion } from 'framer-motion';
 
 const SEALS = [
   { icon: '🛡️', label: 'GMP Certified' },
-  { icon: '🌿', label: 'AYUSH Approved' },
-  { icon: '👥', label: '10,000+ Patients' },
+  { icon: '👥', label: 'Thousands of Patients' },
   { icon: '🔬', label: 'Clinically Proven' },
   { icon: '🚚', label: 'Free Shipping' },
   { icon: '🔒', label: 'Secure Payments' },
   { icon: '↩', label: '30-Day Guarantee' },
-  { icon: '📋', label: '100% Ayurvedic' },
 ];
 
 export default function TrustSeals() {

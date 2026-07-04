@@ -38,13 +38,13 @@ export default async function HomePage() {
           Don&apos;t Let Piles Control Your Life
         </h2>
         <p className="text-white/80 mb-8 max-w-xl mx-auto">
-          Join 10,000+ patients who found permanent relief. Order today and get FREE delivery across India.
+          Join thousands of patients who found permanent relief. Order today and get FREE delivery across India.
         </p>
         <a
           href="#offers"
           className="inline-block bg-secondary-fixed text-primary-700 px-10 py-4 rounded-xl font-bold text-sm uppercase tracking-widest hover:bg-white transition-all shadow-xl"
         >
-          Order Now – Free Delivery 🚚
+          Yes, I Want Permanent Relief
         </a>
       </section>
     </>
