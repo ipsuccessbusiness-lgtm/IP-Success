@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Manrope:wght@300;400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+/* ========================================
+   IP Success Design Tokens (Tailwind v4)
+   ======================================== */
+@theme {
+  --color-primary-50: #f0fdf4;
+  --color-primary-100: #dcfce7;
+  --color-primary-200: #bbf7d0;
+  --color-primary-300: #86efac;
+  --color-primary-400: #4ade80;
+  --color-primary-500: #22c55e;
+  --color-primary-600: #16a34a;
+  --color-primary-700: #166534;
+  --color-primary-800: #14532d;
+  --color-primary-900: #052e16;
+
+  --color-secondary: #006d36;
+  --color-secondary-fixed: #6dfe9c;
+  --color-secondary-fixed-dim: #4de082;
+  --color-secondary-container: #6dfe9c;
+
+  --color-surface: #f9f9ff;
+  --color-surface-bright: #f9f9ff;
+  --color-surface-dim: #d0daef;
+  --color-surface-container: #e6eeff;
+  --color-surface-container-low: #eff3ff;
+  --color-surface-container-high: #dee9fd;
+  --color-surface-container-highest: #d9e3f7;
+  --color-surface-container-lowest: #ffffff;
+
+  --color-on-primary: #ffffff;
+  --color-on-secondary: #ffffff;
+  --color-on-surface: #121c2a;
+  --color-on-surface-variant: #404940;
+  --color-on-background: #121c2a;
+  --color-background: #f9f9ff;
+  --color-outline: #707a6f;
+  --color-outline-variant: #bfc9bd;
+
+  --font-family-sans: 'Manrope', sans-serif;
+  --font-family-serif: 'Libre Caslon Text', serif;
+  --font-family-display: 'Libre Caslon Text', serif;
+
+  --shadow-card: 0 4px 24px rgba(22, 101, 52, 0.08);
+  --shadow-card-hover: 0 12px 48px rgba(22, 101, 52, 0.16);
+  --shadow-glow: 0 0 40px rgba(22, 101, 52, 0.25);
+}
+
+/* ========================================
+   Base Styles
+   ======================================== */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+  background: var(--color-background);
+  color: var(--color-on-surface);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ========================================
+   Custom Components
+   ======================================== */
+.glass-card {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px rgba(22, 101, 52, 0.06);
+}
+
+/* Scrollbar */
+.hide-scrollbar::-webkit-scrollbar { display: none; }
+.hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+.custom-scrollbar::-webkit-scrollbar { width: 6px; }
+.custom-scrollbar::-webkit-scrollbar-track { background: #f1f5f9; }
+.custom-scrollbar::-webkit-scrollbar-thumb { background: #bbf7d0; border-radius: 3px; }
+.custom-scrollbar::-webkit-scrollbar-thumb:hover { background: #86efac; }
+
+/* ========================================
+   Animations
+   ======================================== */
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.animate-scroll {
+  animation: scroll 25s linear infinite;
+}
+
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+}
+
+/* ========================================
+   Print Styles
+   ======================================== */
+@media print {
+  .no-print { display: none !important; }
+  body { background: white; }
+}

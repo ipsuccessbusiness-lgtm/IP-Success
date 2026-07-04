@@ -1,0 +1,110 @@
+{
+  "nav": {
+    "offers": "Combo Offers",
+    "howItWorks": "Kaise Kaam Karta Hai",
+    "benefits": "Fayde",
+    "testimonials": "Log Kya Bolte Hain",
+    "orderNow": "Abhi Order Karo",
+    "expertHelp": "Expert Ki Help"
+  },
+  "hero": {
+    "badge": "100% AYURVEDIC • GMP CERTIFIED",
+    "headline": "Bina Operation ke 14 Din mein Bawaseer se Puri Rahat Paiye.",
+    "subheadline": "Purani jadibootiyon ki taqat aur modern science se dard ki jad ko khatam karo. Koi side effect nahi, 100% natural.",
+    "clinicallyTested": "Clinically Tested",
+    "happyPatients": "10,000+ Khush Mariz",
+    "exploreCombos": "Relief Combo Dekho"
+  },
+  "pain": {
+    "headline": "\"Doctor bolta hai surgery hi ek rasta hai...\"",
+    "fearTitle": "Operation ka darr?",
+    "fearDesc": "Chaku se bachiye. Operation aksar symptom ko theek karta hai, jad ko nahi. Dobara ho sakta hai.",
+    "painTitle": "Roz ka dard nahi ruk raha?",
+    "painDesc": "Baithna mushkil ho gaya. Kaam suffer kar raha hai. Chup rehkar takleef mat jhelo.",
+    "safeTitle": "Safe aur Natural",
+    "safeDesc": "Tissues ko heal karo, sujan kam karo, aur pet ki regularity naturally wapas lao."
+  },
+  "offers": {
+    "title": "Apna Healing Combo Chuno",
+    "subtitle": "Puri rahat ke liye andar se detox aur local tissue repair dono zaroori hain. Sirf scientifically paired combos.",
+    "starterName": "Starter Pack",
+    "starterSubtitle": "Shuruaat ke stage ke liye",
+    "starterPrice": "₹2,475",
+    "starterItem1": "1x Pilescare Syrup (500ml)",
+    "starterItem2": "1x DOUBLE-STEM Cell Powder (100g)",
+    "starterBenefit1": "Tezi se sujan aur khujli khatam",
+    "starterBenefit2": "Pet ke toxins bahar nikale",
+    "starterBenefit3": "Mal naram kare aasaan motion ke liye",
+    "starterCta": "Starter Pack Lo",
+    "bestName": "Best Value Pack",
+    "bestSubtitle": "Purani takleef aur bleeding ke liye",
+    "bestPrice": "₹3,725",
+    "bestOriginal": "₹4,950",
+    "bestItem1": "2x Pilescare Syrup (500ml)",
+    "bestItem2": "1x DOUBLE-STEM Cell Powder (100g)",
+    "bestBenefit1": "3-5 din mein bleeding band",
+    "bestBenefit2": "Andar ki intestinal lining repair hogi",
+    "bestBenefit3": "Dobara hone se bachao",
+    "bestBenefit4": "30 din mein pura gut transformation",
+    "bestCta": "Best Value Pack Order Karo",
+    "mostPopular": "Sabse Popular"
+  },
+  "howItWorks": {
+    "title": "14-Din ka Relief Protocol",
+    "step1Title": "Salah Lo",
+    "step1Desc": "Hamare experts se apne symptoms confirm karo aur sahi pack chuno.",
+    "step2Title": "Detox Phase",
+    "step2Desc": "Din 1-3: Syrup toxins bahar nikalna shuru karta hai.",
+    "step3Title": "Healing Phase",
+    "step3Desc": "Din 4-7: Stem cell powder sujan par kaam karta hai. Bleeding rukti hai.",
+    "step4Title": "Restoration",
+    "step4Desc": "Din 8-14: Tissues theek hote hain aur permanent rahat milti hai."
+  },
+  "testimonials": {
+    "title": "Asli Kahaniyan, Asli Rahat"
+  },
+  "checkout": {
+    "title": "Order Complete Karo",
+    "orderSummary": "Order Summary",
+    "personalDetails": "Personal Details",
+    "deliveryAddress": "Delivery Address",
+    "paymentMethod": "Payment Ka Tarika",
+    "payOnline": "Online Pay Karo (Razorpay)",
+    "cashOnDelivery": "Cash on Delivery",
+    "placeOrder": "Order Do",
+    "processing": "Processing ho raha hai...",
+    "name": "Poora Naam",
+    "phone": "Phone Number",
+    "email": "Email (optional)",
+    "line1": "Address Line 1",
+    "line2": "Address Line 2 (optional)",
+    "city": "Sheher",
+    "state": "State",
+    "pincode": "PIN Code",
+    "total": "Total",
+    "delivery": "Delivery",
+    "free": "Free"
+  },
+  "faq": {
+    "title": "Aksar Pooche Jane Waale Sawaal",
+    "q1": "Kya ye safe hai? Koi side effect?",
+    "a1": "100% Ayurvedic aur GMP Certified. Koi jaani side effect nahi. Long term use ke liye safe.",
+    "q2": "Kitne jaldi result aayega?",
+    "a2": "Zyaadatar log 3-5 din mein rahat report karte hain. Puri recovery 14-30 din mein.",
+    "q3": "Kya COD available hai?",
+    "a3": "Haan! Pure India mein COD available hai. Koi advance payment nahi chahiye.",
+    "q4": "Agar kaam na kare?",
+    "a4": "30 din mein humse contact karo. Hum sahi protocol par guide karenge."
+  },
+  "footer": {
+    "tagline": "Purani Ayurvedic wisdom ko modern clinical efficacy ke saath jodne wali healthcare.",
+    "quickLinks": "Quick Links",
+    "support": "Help aur Support",
+    "contact": "Contact Karo",
+    "shipping": "Shipping Policy",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "trackOrder": "Order Track Karo",
+    "copyright": "© 2024 IP Success Ayurvedic Healthcare. Sab rights reserved. Result alag alag ho sakta hai."
+  }
+}
