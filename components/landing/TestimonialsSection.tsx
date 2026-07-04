@@ -4,7 +4,21 @@ import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
 import { Star } from 'lucide-react';
 
-const TESTIMONIALS = [
+interface Testimonial {
+  id?: string;
+  name: string;
+  location: string;
+  review: string;
+  rating: number;
+  avatar_initials?: string;
+  initials?: string;
+  image_url?: string;
+  video_url?: string;
+  color?: string;
+  textColor?: string;
+}
+
+const TESTIMONIALS: Testimonial[] = [
   {
     name: 'Rajesh Kumar',
     location: 'Ahmedabad, Gujarat',
@@ -60,20 +74,6 @@ const TESTIMONIALS = [
     textColor: 'text-primary-700',
   },
 ];
-
-interface Testimonial {
-  id?: string;
-  name: string;
-  location: string;
-  review: string;
-  rating: number;
-  avatar_initials?: string;
-  initials?: string;
-  image_url?: string;
-  video_url?: string;
-  color?: string;
-  textColor?: string;
-}
 
 export default function TestimonialsSection({ testimonials = [] }: { testimonials?: Testimonial[] }) {
   const t = useTranslations('testimonials');
